@@ -58,7 +58,7 @@
                                 <div class="view_more">
                                         <a href="#" class="text-decoration-none">
                                                 <span class="fs-5  fw-bold" style="color: black;">Tất cả tin tức </span>
-                                                <img src="<?= base_url(); ?>/svg/caret-right.svg" alt="">
+                                                <img src="./public/svg/caret-right.svg" alt="">
                                         </a>
                                 </div>
                         </div>

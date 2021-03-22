@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>ThinkPro - Hệ thống máy tính và phụ kiện </title>
-        <link rel="stylesheet" href="<?= base_url(); ?>/scss/style.css" type="text/css">
+        <link rel="stylesheet" href="./public/scss/style.css" type="text/css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
@@ -22,3 +22,14 @@
 </head>
 
 <body>
+        <?php include 'header_menu.php'; ?>
+        <?php include 'section_tin_tuc.php'; ?>
+        <?php include 'section_discount.php'; ?>
+        <?php include 'section_laptop.php'; ?>
+        <?php include 'section_pdc.php'; ?>
+        <?php include 'section_pc.php'; ?>
+        <?php include 'section_gear.php'; ?>
+        <?php include 'footer_menu.php'; ?>
+</body>
+
+</html>

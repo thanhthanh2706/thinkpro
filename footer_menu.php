@@ -15,17 +15,17 @@
                                                         <ul class="d-flex justify-content-center ">
                                                                 <li class="d-flex justify-content-center align-items-center rounded-circle me-3">
                                                                         <a href="#" class="d-inline-flex">
-                                                                                <img class="" src="<?= base_url(); ?>/svg/youtube.svg" alt="">
+                                                                                <img class="" src="./public/svg/youtube.svg" alt="">
                                                                         </a>
                                                                 </li>
                                                                 <li class="d-flex justify-content-center align-items-center rounded-circle me-3">
                                                                         <a href="#" class="d-inline-flex">
-                                                                                <img class="icon_3" src="<?= base_url(); ?>/svg/facebook.svg" alt="">
+                                                                                <img class="icon_3" src="./public/svg/facebook.svg" alt="">
                                                                         </a>
                                                                 </li>
                                                                 <li class="d-flex justify-content-center align-items-center rounded-circle">
                                                                         <a href="#" class="d-inline-flex">
-                                                                                <img class="icon_3" src="<?= base_url(); ?>/svg/instagram.svg" alt="">
+                                                                                <img class="icon_3" src="./public/svg/instagram.svg" alt="">
                                                                         </a>
                                                                 </li>
                                                         </ul>

@@ -19,7 +19,7 @@
                         </ul>
                         <div class="search col-4">
                                 <input type="text" name="search_term_string" placeholder="Tìm kiếm trên ThinkPro" class="form-control rounded-pill">
-                                <img src="<?= base_url(); ?>/svg/search.svg" alt="">
+                                <img src="./public/svg/search.svg" alt="">
                         </div>
                         <div class="cart col-3 d-flex justify-content-end">
                                 <a href="#">
@@ -29,7 +29,7 @@
                                         <img class="icon_2 ms-5" src="http://cdn.onlinewebfonts.com/svg/img_559708.png" alt="">
                                 </a>
                                 <a href="#">
-                                        <img class="icon_3 ms-5" src="<?= base_url(); ?>/svg/person-circle.svg" alt="">
+                                        <img class="icon_3 ms-5" src="./public/svg/person-circle.svg" alt="">
                                 </a>
                         </div>
                 </div>
