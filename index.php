@@ -7,20 +7,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>ThinkPro - Hệ thống máy tính và phụ kiện </title>
         <link rel="stylesheet" href="./public/scss/style.css" type="text/css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-                integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
-                crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-                crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
-                integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
-                crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
-                integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
-                crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
 
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -50,19 +42,15 @@
                                         </li>
                                 </ul>
                                 <div class="search col-4">
-                                        <input type="text" name="search_term_string"
-                                                placeholder="Tìm kiếm trên ThinkPro" class="form-control rounded-pill">
+                                        <input type="text" name="search_term_string" placeholder="Tìm kiếm trên ThinkPro" class="form-control rounded-pill">
                                         <img src="./public/svg/search.svg" alt="">
                                 </div>
                                 <div class="cart col-3 d-flex justify-content-end">
                                         <a href="#">
-                                                <img class="icon_1"
-                                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAdVBMVEX///8AAACGhoZra2v8/PxYWFgcHBzu7u7h4eG1tbXn5+fd3d3x8fHNzc309PR7e3twcHCPj4+lpaXHx8eXl5dERERKSkq9vb1kZGTW1tYqKio+Pj6dnZ0YGBheXl4mJiZSUlIxMTGwsLB/f38QEBA3NzcLCwsTiec1AAAJ4ElEQVR4nO1da1fqOhC1UgFBKSAKIiJw0P//E6+cpafZk6QJzUyS3tX9EfqYaZJ5T3JzEwujp131sj0X5+1LtXsaRXtvJEx2nwXibfd/YvLxpTDh8JiaMCa8Phv5u+Blmpo4BpRzK38XVKnpC8brVyODRTHs+DCeHPxdsE5NZAhuPRgsilVqMtvjjxeDRbFITWhbLDwZLIplalLb4d6bwaJ4Sk1sG0yuYLAoZqnJbQFqpv3F26baGP+4S03u9VhqTGxXv6pvuvrQ/u2czphRDt6RhfWZXpCI0NagmlC3zqg11zF5SofwZLiGzuPoRAZh57PIiEl3H5nGMLwD7TvLVWgSvESlMBBTIN2uCdAzfohIYShWnpSjVdClaXpQCf/TcOFAvXAejb5wwNBMvn8YTdfLVbXZ312w31Sr5Xp6iUTBdN6mJtsfY5Xu4dMChlTBYbEGkVSmJtwbTxaOXOhOQMMndmFCd6KLKzczRnTH+m7LYVdM03FzhLQJ83Fq4j0wvWvN3wV3uUub8T6Ivwv2OY/jaOBmwAODbA3UtgJGh80ZSYtXPfbSHtvX1OzoqPxI/3p3pWp+0GSvp8DUMYBv1e7b1H6YleVNWc4evg3xXfXWfMtHVlJ110DptrqfWG6b3FfbhjvzMQBKuwrcn2zc/WJysiuYfRTy3Ri/Wwi8W/u5Q+Xa5l4NXd8nCmyu0u011E1sibgM3A09en/BeXmtN1ta1rIp0hoVxhzhezuyllqk/4LE2t84udrLQOM4Js0Qm9T83J4K/NaEk3FjKdTDxvDEW3a6vWEYwS9zNnd8v9g8/1gF28Y5bBJcyUbRsAZNBUCTJdV4h8bHGhyURGvRIEX1QMtkdTQMSnPs11AAkCQcrk+no7bETjbbs9l1mOhWbgK9ONaIGJArbBruApfnoFty0a2bUtNdpLKpib+ieHY9X6um+pDixAbNkiRL0FFM405RaFHljRAnFmhiFJXE2OH7+ZC7pvdEdaZe6dtRcrgDNj6yURNlEYNwJfWXYARn9prgX/jl0ehMj5h9o0FtWIOPTv68BSPVuNHMN8oDSFGzNwU4eEt+KlFjhW6IogADpalmdnvY/FnsltcsJ6IXj8ycWEDk6Jv6nzUpMzi9tsrwEusmijylVZVqCN7k+xTFcNE+vkvfFqNKk0wcVYwaR3AfZlISgRqhe4GIGdXANEU0NsHCgThT8koRld1Q+ccgRZ85hB+ZEgxPbAQZQmWBaXYOl1wg5pu0xsAhVOaoVjJbPHM1p6H8ErbAyUApCkBzNvhkwggfLOspoiBVZqG2CDkjuSjCRMUpaqeh7Y+CuYGitM4cduDHVAxu2kLJ3CGCM0TSsIEXKc4M9VbZi5tsL+YG+qSKF0v8Rf6PjEEfOYWBYrv+nYgZAVGAukgsx48LXvEKkUGRSQQZkneJN1yAq632KcgQiugrDM9K1aKADayYFrgKhSQdRO+kwhnASK0PcGg/hV4O8dOh+/o2QKO7/h0rMaQmEJpuMpYbREHr4Ay+Ws65AZtfJrsPdkut01HOyKkqeA/NArEAdUUdL4FvK9i7hC0OEm8Ax6nOHaEuluxYHqovkihBhVlSZ9YxUiTw3n8AZSXxKSvzC+Bn0bA7fGKJfRigBbtehlBcKFr3Cj1SEqLGPBsfok1SpEBA1IAXX5tsj+afRQARfv7HgyitBQ0sDuGsAoTU+a0akJm18wtlUcLl5wvZd8Fg1akIcIqFd++Cj8zfBQaJwXqKCK8NAARR+FcELILaolB/lc5fgrrgL3WD6VhHLNVfpfcnAS+G37hQvUAlTqK+VDq39yD7MpVDRd2qL5XuNgcjn9+oyYBD8N/4XW0PDsXLXVT/iX/RWzhUXQvxGtAkHCqet1SUrUYSDhVbR77GNQ2HvyxuI1QOJuLwpjzN97dRtpRLxWE89ByGoecwBnoOw9BzGAM9h2HoOYyBnsMw9BzGQM9hGHoOY6DnMAw9hzHQcxiGnsMY6DkMQ89hDPQchkHtTYu+C8cPZDlUa+UjNY1rUKsEnbujXA31+8lnCs04KjTw960oD092TgP0XLA/XX14qh0bD5IcQqVHqt1ToQ6au88SKq5S7Z8GtXXcOWeolE21lSH0tHBXfghXPvoBep+48+rw+VJt1Cxafim6BHxhqcTmgaig9gUUJ3KXzcesBbZDJYLZdAR1mO7oKcHvDN0W6U4tgk0reOvmQYql29kX5B2vQoRehHTHwYBC5O0jhUr9dEdsgGXFax0f1UenOxUVqvV5BZ765FQxjAvg6AjOB4u3/vkCuq05S3Zhhac8RhuauzglHumQLVMB92/g7A1oOmcjHd7chPti5H5bEvAJdW1L30zAZ9X4nnMfG3wuYmpObGCLTF93DnxMcC1Ej62BE4FLI4ad9ycJJk9V39UyH/Bw6NgiPyl4gqa246ZyAMs0fXC/JyE4OERJOh+kBm44zXE8C0TwImw27QQ4OgzJbtylLYNj0AhF4UEjUIZnBgLDAfv6B8satNiSHhD2D7gTbqjlhus6i+MIeb86PixdwgKBm4qHJfRxCKO0M3sAPfKgQYQoYrJyNh24Y2pIigY3sc7nbFfcODkggEtsbj4KQ0G2MG+tpclzUkaCKVBhtM4zEM9XcrP3a0F81pbGJDn5LK/zzsmxYK2kPD2Rg5vGQBDqWtgiNHaRLvFrBpGC15ebluSgJf6S3FB8hhE4o7mYdJltG6aEwutMytmQ3J6HU4Gghy9dk4rSjr9LVbreDHoe69B7oukniOY3Ry/QD3v1K0AZH7Ubc5Ojv9AjuQe3FT4ynZ22uM0TpmPQKsdO3+4TRPNHo/1sPt2va2jwprQzeDsKe5iYHhHbVViDEdRK6C5s2i3XkovrYXOmfE7y7QZs7RI5J3uvgzUOPnDf2wnY1UXeyVB/NKQyxl/u27PHudFPKFd5liH647iSjQlajttxAVItqfrG/IBBZN+EAma4corLGgDxId/YB3hBqRrFfYHul+dNcE9OyQMT0Lb1i5PjV5E+szkYGB7ySbKjFhY8RpUJOCA+bZB4inJe6RETSNW7O/pFqlclDlRjBjFuXdqNODTpehv9QaOYzVkhenWekVkC6qE0EU3DCl0YQkP/iT19qUUVOrAKL9ACtbYGJa2PI3dt/w9HSvnQNIxPZ3pZ7gZbDT1lUrzR3Mf6U78oj7I5L5hCy1/V+tfXGK0rwwUs9b7RYMrv/J2H++pOm8M/SLWvT0tc34WSamum1nh28wTIrxTCietY7CCD10VfU/aHB8A/3doZTU/x5ObtL3KpPW6BmU9SeZBuFwoOPB4d/H3m0KQShhOtr1Lx0Sk7xoq1rb/vrsMLkGC01G2c/bIjzqAvyun9Yv7ycS7O25f54j5eVPQ/EQB1bURnwVMAAAAASUVORK5CYII="
-                                                        alt="">
+                                                <img class="icon_1" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAdVBMVEX///8AAACGhoZra2v8/PxYWFgcHBzu7u7h4eG1tbXn5+fd3d3x8fHNzc309PR7e3twcHCPj4+lpaXHx8eXl5dERERKSkq9vb1kZGTW1tYqKio+Pj6dnZ0YGBheXl4mJiZSUlIxMTGwsLB/f38QEBA3NzcLCwsTiec1AAAJ4ElEQVR4nO1da1fqOhC1UgFBKSAKIiJw0P//E6+cpafZk6QJzUyS3tX9EfqYaZJ5T3JzEwujp131sj0X5+1LtXsaRXtvJEx2nwXibfd/YvLxpTDh8JiaMCa8Phv5u+Blmpo4BpRzK38XVKnpC8brVyODRTHs+DCeHPxdsE5NZAhuPRgsilVqMtvjjxeDRbFITWhbLDwZLIplalLb4d6bwaJ4Sk1sG0yuYLAoZqnJbQFqpv3F26baGP+4S03u9VhqTGxXv6pvuvrQ/u2czphRDt6RhfWZXpCI0NagmlC3zqg11zF5SofwZLiGzuPoRAZh57PIiEl3H5nGMLwD7TvLVWgSvESlMBBTIN2uCdAzfohIYShWnpSjVdClaXpQCf/TcOFAvXAejb5wwNBMvn8YTdfLVbXZ312w31Sr5Xp6iUTBdN6mJtsfY5Xu4dMChlTBYbEGkVSmJtwbTxaOXOhOQMMndmFCd6KLKzczRnTH+m7LYVdM03FzhLQJ83Fq4j0wvWvN3wV3uUub8T6Ivwv2OY/jaOBmwAODbA3UtgJGh80ZSYtXPfbSHtvX1OzoqPxI/3p3pWp+0GSvp8DUMYBv1e7b1H6YleVNWc4evg3xXfXWfMtHVlJ110DptrqfWG6b3FfbhjvzMQBKuwrcn2zc/WJysiuYfRTy3Ri/Wwi8W/u5Q+Xa5l4NXd8nCmyu0u011E1sibgM3A09en/BeXmtN1ta1rIp0hoVxhzhezuyllqk/4LE2t84udrLQOM4Js0Qm9T83J4K/NaEk3FjKdTDxvDEW3a6vWEYwS9zNnd8v9g8/1gF28Y5bBJcyUbRsAZNBUCTJdV4h8bHGhyURGvRIEX1QMtkdTQMSnPs11AAkCQcrk+no7bETjbbs9l1mOhWbgK9ONaIGJArbBruApfnoFty0a2bUtNdpLKpib+ieHY9X6um+pDixAbNkiRL0FFM405RaFHljRAnFmhiFJXE2OH7+ZC7pvdEdaZe6dtRcrgDNj6yURNlEYNwJfWXYARn9prgX/jl0ehMj5h9o0FtWIOPTv68BSPVuNHMN8oDSFGzNwU4eEt+KlFjhW6IogADpalmdnvY/FnsltcsJ6IXj8ycWEDk6Jv6nzUpMzi9tsrwEusmijylVZVqCN7k+xTFcNE+vkvfFqNKk0wcVYwaR3AfZlISgRqhe4GIGdXANEU0NsHCgThT8koRld1Q+ccgRZ85hB+ZEgxPbAQZQmWBaXYOl1wg5pu0xsAhVOaoVjJbPHM1p6H8ErbAyUApCkBzNvhkwggfLOspoiBVZqG2CDkjuSjCRMUpaqeh7Y+CuYGitM4cduDHVAxu2kLJ3CGCM0TSsIEXKc4M9VbZi5tsL+YG+qSKF0v8Rf6PjEEfOYWBYrv+nYgZAVGAukgsx48LXvEKkUGRSQQZkneJN1yAq632KcgQiugrDM9K1aKADayYFrgKhSQdRO+kwhnASK0PcGg/hV4O8dOh+/o2QKO7/h0rMaQmEJpuMpYbREHr4Ay+Ws65AZtfJrsPdkut01HOyKkqeA/NArEAdUUdL4FvK9i7hC0OEm8Ax6nOHaEuluxYHqovkihBhVlSZ9YxUiTw3n8AZSXxKSvzC+Bn0bA7fGKJfRigBbtehlBcKFr3Cj1SEqLGPBsfok1SpEBA1IAXX5tsj+afRQARfv7HgyitBQ0sDuGsAoTU+a0akJm18wtlUcLl5wvZd8Fg1akIcIqFd++Cj8zfBQaJwXqKCK8NAARR+FcELILaolB/lc5fgrrgL3WD6VhHLNVfpfcnAS+G37hQvUAlTqK+VDq39yD7MpVDRd2qL5XuNgcjn9+oyYBD8N/4XW0PDsXLXVT/iX/RWzhUXQvxGtAkHCqet1SUrUYSDhVbR77GNQ2HvyxuI1QOJuLwpjzN97dRtpRLxWE89ByGoecwBnoOw9BzGAM9h2HoOYyBnsMw9BzGQM9hGHoOY6DnMAw9hzHQcxiGnsMY6DkMQ89hDPQchkHtTYu+C8cPZDlUa+UjNY1rUKsEnbujXA31+8lnCs04KjTw960oD092TgP0XLA/XX14qh0bD5IcQqVHqt1ToQ6au88SKq5S7Z8GtXXcOWeolE21lSH0tHBXfghXPvoBep+48+rw+VJt1Cxafim6BHxhqcTmgaig9gUUJ3KXzcesBbZDJYLZdAR1mO7oKcHvDN0W6U4tgk0reOvmQYql29kX5B2vQoRehHTHwYBC5O0jhUr9dEdsgGXFax0f1UenOxUVqvV5BZ765FQxjAvg6AjOB4u3/vkCuq05S3Zhhac8RhuauzglHumQLVMB92/g7A1oOmcjHd7chPti5H5bEvAJdW1L30zAZ9X4nnMfG3wuYmpObGCLTF93DnxMcC1Ej62BE4FLI4ad9ycJJk9V39UyH/Bw6NgiPyl4gqa246ZyAMs0fXC/JyE4OERJOh+kBm44zXE8C0TwImw27QQ4OgzJbtylLYNj0AhF4UEjUIZnBgLDAfv6B8satNiSHhD2D7gTbqjlhus6i+MIeb86PixdwgKBm4qHJfRxCKO0M3sAPfKgQYQoYrJyNh24Y2pIigY3sc7nbFfcODkggEtsbj4KQ0G2MG+tpclzUkaCKVBhtM4zEM9XcrP3a0F81pbGJDn5LK/zzsmxYK2kPD2Rg5vGQBDqWtgiNHaRLvFrBpGC15ebluSgJf6S3FB8hhE4o7mYdJltG6aEwutMytmQ3J6HU4Gghy9dk4rSjr9LVbreDHoe69B7oukniOY3Ry/QD3v1K0AZH7Ubc5Ojv9AjuQe3FT4ynZ22uM0TpmPQKsdO3+4TRPNHo/1sPt2va2jwprQzeDsKe5iYHhHbVViDEdRK6C5s2i3XkovrYXOmfE7y7QZs7RI5J3uvgzUOPnDf2wnY1UXeyVB/NKQyxl/u27PHudFPKFd5liH647iSjQlajttxAVItqfrG/IBBZN+EAma4corLGgDxId/YB3hBqRrFfYHul+dNcE9OyQMT0Lb1i5PjV5E+szkYGB7ySbKjFhY8RpUJOCA+bZB4inJe6RETSNW7O/pFqlclDlRjBjFuXdqNODTpehv9QaOYzVkhenWekVkC6qE0EU3DCl0YQkP/iT19qUUVOrAKL9ACtbYGJa2PI3dt/w9HSvnQNIxPZ3pZ7gZbDT1lUrzR3Mf6U78oj7I5L5hCy1/V+tfXGK0rwwUs9b7RYMrv/J2H++pOm8M/SLWvT0tc34WSamum1nh28wTIrxTCietY7CCD10VfU/aHB8A/3doZTU/x5ObtL3KpPW6BmU9SeZBuFwoOPB4d/H3m0KQShhOtr1Lx0Sk7xoq1rb/vrsMLkGC01G2c/bIjzqAvyun9Yv7ycS7O25f54j5eVPQ/EQB1bURnwVMAAAAASUVORK5CYII=" alt="">
                                         </a>
                                         <a href="#">
-                                                <img class="icon_2 ms-5"
-                                                        src="http://cdn.onlinewebfonts.com/svg/img_559708.png" alt="">
+                                                <img class="icon_2 ms-5" src="http://cdn.onlinewebfonts.com/svg/img_559708.png" alt="">
                                         </a>
                                         <a href="#">
                                                 <img class="icon_3 ms-5" src="./public/svg/person-circle.svg" alt="">
@@ -79,26 +67,22 @@
                                                 <div class="swiper-wrapper">
                                                         <div class="swiper-slide">
                                                                 <a href="#">
-                                                                        <img src="https://lumen.thinkpro.vn//backend/uploads/banner/2021/3/12/808x288.png"
-                                                                                alt="">
+                                                                        <img src="https://lumen.thinkpro.vn//backend/uploads/banner/2021/3/12/808x288.png" alt="">
                                                                 </a>
                                                         </div>
                                                         <div class="swiper-slide">
                                                                 <a href="#">
-                                                                        <img src="https://lumen.thinkpro.vn//backend/uploads/banner/2021/3/1/2x%20TLC-KM%20ph%E1%BB%A5%20ki%E1%BB%87n.png"
-                                                                                alt="">
+                                                                        <img src="https://lumen.thinkpro.vn//backend/uploads/banner/2021/3/1/2x%20TLC-KM%20ph%E1%BB%A5%20ki%E1%BB%87n.png" alt="">
                                                                 </a>
                                                         </div>
                                                         <div class="swiper-slide">
                                                                 <a href="#">
-                                                                        <img src="https://lumen.thinkpro.vn//backend/uploads/banner/2021/3/16/2x%20BaoHanh_808x288.png"
-                                                                                alt="">
+                                                                        <img src="https://lumen.thinkpro.vn//backend/uploads/banner/2021/3/16/2x%20BaoHanh_808x288.png" alt="">
                                                                 </a>
                                                         </div>
                                                         <div class="swiper-slide">
                                                                 <a href="#">
-                                                                        <img src="https://lumen.thinkpro.vn//backend/uploads/banner/2021/3/10/808x288.png"
-                                                                                alt="">
+                                                                        <img src="https://lumen.thinkpro.vn//backend/uploads/banner/2021/3/10/808x288.png" alt="">
                                                                 </a>
                                                         </div>
                                                 </div>
@@ -171,8 +155,7 @@
                                                         <div class=" product_img px-2 pt-2  mb-2">
                                                                 <div class="img_content">
                                                                         <a href="#">
-                                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg"
-                                                                                        alt="Vỏ case Razer Tomahawk ATX">
+                                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg" alt="Vỏ case Razer Tomahawk ATX">
                                                                         </a>
                                                                 </div>
                                                         </div>
@@ -192,14 +175,12 @@
                                                                         26.990.000 ₫
                                                                 </div>
                                                                 <div class="addcart mb-4">
-                                                                        <a href="#"
-                                                                                class="mb-1 text-decoration-none inline-block bg-color p-2">
+                                                                        <a href="#" class="mb-1 text-decoration-none inline-block bg-color p-2">
                                                                                 Thêm vào giỏ hàng
                                                                         </a>
                                                                 </div>
                                                                 <div class="compare mb-3">
-                                                                        <a href="#"
-                                                                                class="mb-1 text-decoration-none inline-block bg-color p-2">
+                                                                        <a href="#" class="mb-1 text-decoration-none inline-block bg-color p-2">
                                                                                 So sánh giá
                                                                         </a>
                                                                 </div>
@@ -209,8 +190,7 @@
                                                         <div class=" product_img px-2 pt-2  mb-2">
                                                                 <div class="img_content">
                                                                         <a href="#">
-                                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg"
-                                                                                        alt="Vỏ case Razer Tomahawk ATX">
+                                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg" alt="Vỏ case Razer Tomahawk ATX">
                                                                         </a>
                                                                 </div>
                                                         </div>
@@ -230,14 +210,12 @@
                                                                         26.990.000 ₫
                                                                 </div>
                                                                 <div class="addcart mb-4">
-                                                                        <a href="#"
-                                                                                class="mb-1 text-decoration-none inline-block bg-color p-2">
+                                                                        <a href="#" class="mb-1 text-decoration-none inline-block bg-color p-2">
                                                                                 Thêm vào giỏ hàng
                                                                         </a>
                                                                 </div>
                                                                 <div class="compare mb-3">
-                                                                        <a href="#"
-                                                                                class="mb-1 text-decoration-none inline-block bg-color p-2">
+                                                                        <a href="#" class="mb-1 text-decoration-none inline-block bg-color p-2">
                                                                                 So sánh giá
                                                                         </a>
                                                                 </div>
@@ -247,8 +225,7 @@
                                                         <div class=" product_img px-2 pt-2  mb-2">
                                                                 <div class="img_content">
                                                                         <a href="#">
-                                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg"
-                                                                                        alt="Vỏ case Razer Tomahawk ATX">
+                                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg" alt="Vỏ case Razer Tomahawk ATX">
                                                                         </a>
                                                                 </div>
                                                         </div>
@@ -268,14 +245,12 @@
                                                                         26.990.000 ₫
                                                                 </div>
                                                                 <div class="addcart mb-4">
-                                                                        <a href="#"
-                                                                                class="mb-1 text-decoration-none inline-block bg-color p-2">
+                                                                        <a href="#" class="mb-1 text-decoration-none inline-block bg-color p-2">
                                                                                 Thêm vào giỏ hàng
                                                                         </a>
                                                                 </div>
                                                                 <div class="compare mb-3">
-                                                                        <a href="#"
-                                                                                class="mb-1 text-decoration-none inline-block bg-color p-2">
+                                                                        <a href="#" class="mb-1 text-decoration-none inline-block bg-color p-2">
                                                                                 So sánh giá
                                                                         </a>
                                                                 </div>
@@ -285,8 +260,7 @@
                                                         <div class=" product_img px-2 pt-2  mb-2">
                                                                 <div class="img_content">
                                                                         <a href="#">
-                                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg"
-                                                                                        alt="Vỏ case Razer Tomahawk ATX">
+                                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg" alt="Vỏ case Razer Tomahawk ATX">
                                                                         </a>
                                                                 </div>
                                                         </div>
@@ -306,14 +280,12 @@
                                                                         26.990.000 ₫
                                                                 </div>
                                                                 <div class="addcart mb-4">
-                                                                        <a href="#"
-                                                                                class="mb-1 text-decoration-none inline-block bg-color p-2">
+                                                                        <a href="#" class="mb-1 text-decoration-none inline-block bg-color p-2">
                                                                                 Thêm vào giỏ hàng
                                                                         </a>
                                                                 </div>
                                                                 <div class="compare mb-3">
-                                                                        <a href="#"
-                                                                                class="mb-1 text-decoration-none inline-block bg-color p-2">
+                                                                        <a href="#" class="mb-1 text-decoration-none inline-block bg-color p-2">
                                                                                 So sánh giá
                                                                         </a>
                                                                 </div>
@@ -323,8 +295,7 @@
                                                         <div class=" product_img px-2 pt-2  mb-2">
                                                                 <div class="img_content">
                                                                         <a href="#">
-                                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg"
-                                                                                        alt="Vỏ case Razer Tomahawk ATX">
+                                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg" alt="Vỏ case Razer Tomahawk ATX">
                                                                         </a>
                                                                 </div>
                                                         </div>
@@ -344,14 +315,12 @@
                                                                         26.990.000 ₫
                                                                 </div>
                                                                 <div class="addcart mb-4">
-                                                                        <a href="#"
-                                                                                class="mb-1 text-decoration-none inline-block bg-color p-2">
+                                                                        <a href="#" class="mb-1 text-decoration-none inline-block bg-color p-2">
                                                                                 Thêm vào giỏ hàng
                                                                         </a>
                                                                 </div>
                                                                 <div class="compare mb-3">
-                                                                        <a href="#"
-                                                                                class="mb-1 text-decoration-none inline-block bg-color p-2">
+                                                                        <a href="#" class="mb-1 text-decoration-none inline-block bg-color p-2">
                                                                                 So sánh giá
                                                                         </a>
                                                                 </div>
@@ -363,8 +332,7 @@
                                 <div class="swiper-button-prev"></div>
                         </div>
                         <div class="seeall mt-5 text-center ">
-                                <a href="#"
-                                        class=" text-decoration-none d-inline-block border border-dark border-1 px-5 rounded-pill">
+                                <a href="#" class=" text-decoration-none d-inline-block border border-dark border-1 px-5 rounded-pill">
                                         Xem tất cả
                                 </a>
                         </div>
@@ -399,72 +367,52 @@
                                                 <div class="swiper-wrapper">
                                                         <div class="swiper-slide">
                                                                 <a href="#" class="text-decoration-none">
-                                                                        <img class="asus border border-1 border-light rounded inline-block "
-                                                                                src="https://lumen.thinkpro.vn/backend/uploads/brand/icon/2020/8/7/lenovo.png"
-                                                                                alt="">
+                                                                        <img class="asus border border-1 border-light rounded inline-block " src="https://lumen.thinkpro.vn/backend/uploads/brand/icon/2020/8/7/lenovo.png" alt="">
                                                                 </a>
                                                         </div>
                                                         <div class="swiper-slide">
                                                                 <a href="#" class="text-decoration-none">
-                                                                        <img class="asus border border-1 border-light rounded inline-block  "
-                                                                                src="https://lumen.thinkpro.vn/backend/uploads/brand/icon/2020/8/7/dell.png"
-                                                                                alt="">
+                                                                        <img class="asus border border-1 border-light rounded inline-block  " src="https://lumen.thinkpro.vn/backend/uploads/brand/icon/2020/8/7/dell.png" alt="">
                                                                 </a>
                                                         </div>
                                                         <div class="swiper-slide">
                                                                 <a href="#" class="text-decoration-none">
-                                                                        <img class="asus border border-1 border-light rounded inline-block  "
-                                                                                src="https://lumen.thinkpro.vn/backend/uploads/brand/icon/2020/8/7/hp.png"
-                                                                                alt="">
+                                                                        <img class="asus border border-1 border-light rounded inline-block  " src="https://lumen.thinkpro.vn/backend/uploads/brand/icon/2020/8/7/hp.png" alt="">
                                                                 </a>
                                                         </div>
                                                         <div class="swiper-slide">
                                                                 <a href="#" class="text-decoration-none">
-                                                                        <img class="asus border border-1 border-light rounded inline-block  "
-                                                                                src="https://lumen.thinkpro.vn/backend/uploads/brand/icon/2020/9/24/5f6c4ee7ed9fd_1600933607.png"
-                                                                                alt="">
+                                                                        <img class="asus border border-1 border-light rounded inline-block  " src="https://lumen.thinkpro.vn/backend/uploads/brand/icon/2020/9/24/5f6c4ee7ed9fd_1600933607.png" alt="">
                                                                 </a>
                                                         </div>
                                                         <div class="swiper-slide">
                                                                 <a href="#" class="text-decoration-none">
-                                                                        <img class="asus border border-1 border-light rounded inline-block  "
-                                                                                src="https://lumen.thinkpro.vn/backend/uploads/brand/icon/2020/8/7/acer.png"
-                                                                                alt="">
+                                                                        <img class="asus border border-1 border-light rounded inline-block  " src="https://lumen.thinkpro.vn/backend/uploads/brand/icon/2020/8/7/acer.png" alt="">
                                                                 </a>
                                                         </div>
                                                         <div class="swiper-slide">
                                                                 <a href="#" class="text-decoration-none">
-                                                                        <img class="asus border border-1 border-light rounded inline-block  "
-                                                                                src="https://lumen.thinkpro.vn/backend/uploads/brand/icon/2021/2/2/6018ddb8511fb_1612242360.png"
-                                                                                alt="">
+                                                                        <img class="asus border border-1 border-light rounded inline-block  " src="https://lumen.thinkpro.vn/backend/uploads/brand/icon/2021/2/2/6018ddb8511fb_1612242360.png" alt="">
                                                                 </a>
                                                         </div>
                                                         <div class="swiper-slide">
                                                                 <a href="#" class="text-decoration-none">
-                                                                        <img class="asus border border-1 border-light rounded inline-block  "
-                                                                                src="https://lumen.thinkpro.vn/backend/uploads/brand/icon/2021/2/2/6018ddb8511fb_1612242360.png"
-                                                                                alt="">
+                                                                        <img class="asus border border-1 border-light rounded inline-block  " src="https://lumen.thinkpro.vn/backend/uploads/brand/icon/2021/2/2/6018ddb8511fb_1612242360.png" alt="">
                                                                 </a>
                                                         </div>
                                                         <div class="swiper-slide">
                                                                 <a href="#" class="text-decoration-none">
-                                                                        <img class="asus border border-1 border-light rounded inline-block  "
-                                                                                src="https://lumen.thinkpro.vn/backend/uploads/brand/icon/2021/2/2/6018ddb8511fb_1612242360.png"
-                                                                                alt="">
+                                                                        <img class="asus border border-1 border-light rounded inline-block  " src="https://lumen.thinkpro.vn/backend/uploads/brand/icon/2021/2/2/6018ddb8511fb_1612242360.png" alt="">
                                                                 </a>
                                                         </div>
                                                         <div class="swiper-slide">
                                                                 <a href="#" class="text-decoration-none">
-                                                                        <img class="asus border border-1 border-light rounded inline-block  "
-                                                                                src="https://lumen.thinkpro.vn/backend/uploads/brand/icon/2021/2/2/6018ddb8511fb_1612242360.png"
-                                                                                alt="">
+                                                                        <img class="asus border border-1 border-light rounded inline-block  " src="https://lumen.thinkpro.vn/backend/uploads/brand/icon/2021/2/2/6018ddb8511fb_1612242360.png" alt="">
                                                                 </a>
                                                         </div>
                                                         <div class="swiper-slide">
                                                                 <a href="#" class="text-decoration-none">
-                                                                        <img class="asus border border-1 border-light rounded inline-block  "
-                                                                                src="https://lumen.thinkpro.vn/backend/uploads/brand/icon/2021/2/2/6018ddb8511fb_1612242360.png"
-                                                                                alt="">
+                                                                        <img class="asus border border-1 border-light rounded inline-block  " src="https://lumen.thinkpro.vn/backend/uploads/brand/icon/2021/2/2/6018ddb8511fb_1612242360.png" alt="">
                                                                 </a>
                                                         </div>
                                                 </div>
@@ -498,8 +446,7 @@
                                         <div class=" product_img px-2 pt-2  mb-2">
                                                 <div class="img_content">
                                                         <a href="#">
-                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg"
-                                                                        alt="Vỏ case Razer Tomahawk ATX">
+                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg" alt="Vỏ case Razer Tomahawk ATX">
                                                         </a>
                                                 </div>
                                         </div>
@@ -522,30 +469,16 @@
                                                 <div class="content_more ">
                                                         <ul class="nav nav-tabs " id="tab_gear" role="tablist">
                                                                 <li class="nav-item d-flex" role="presentation">
-                                                                        <button class="nav-link active"
-                                                                                id="nav-home-tab" data-bs-toggle="tab"
-                                                                                data-bs-target="#black1" type="button"
-                                                                                role="tab" aria-controls="nav-home"
-                                                                                aria-selected="true">Black</button>
-                                                                        <button class="nav-link" id="nav-profile-tab"
-                                                                                data-bs-toggle="tab"
-                                                                                data-bs-target="#white1" type="button"
-                                                                                role="tab" aria-controls="nav-profile"
-                                                                                aria-selected="false">White</button>
+                                                                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#black1" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Black</button>
+                                                                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#white1" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">White</button>
                                                                 </li>
                                                         </ul>
                                                         <div class="tab-content" id="myTabContent">
-                                                                <div class="tab-pane fade show active" id="black1"
-                                                                        role="tabpanel" aria-labelledby="home-tab">
-                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show active" id="black1" role="tabpanel" aria-labelledby="home-tab">
+                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg" alt=""></a>
                                                                 </div>
-                                                                <div class="tab-pane fade show" id="white1"
-                                                                        role="tabpanel"
-                                                                        aria-labelledby="nav-profile-tab">
-                                                                        <a href="#"> <img
-                                                                                        src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show" id="white1" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                                                        <a href="#"> <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png" alt=""></a>
                                                                 </div>
                                                         </div>
                                                 </div>
@@ -555,8 +488,7 @@
                                         <div class=" product_img px-2 pt-2  mb-2">
                                                 <div class="img_content">
                                                         <a href="#">
-                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg"
-                                                                        alt="Vỏ case Razer Tomahawk ATX">
+                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg" alt="Vỏ case Razer Tomahawk ATX">
                                                         </a>
                                                 </div>
                                         </div>
@@ -579,30 +511,16 @@
                                                 <div class="content_more ">
                                                         <ul class="nav nav-tabs " id="tab_gear" role="tablist">
                                                                 <li class="nav-item d-flex" role="presentation">
-                                                                        <button class="nav-link active"
-                                                                                id="nav-home-tab" data-bs-toggle="tab"
-                                                                                data-bs-target="#black1" type="button"
-                                                                                role="tab" aria-controls="nav-home"
-                                                                                aria-selected="true">Black</button>
-                                                                        <button class="nav-link" id="nav-profile-tab"
-                                                                                data-bs-toggle="tab"
-                                                                                data-bs-target="#white1" type="button"
-                                                                                role="tab" aria-controls="nav-profile"
-                                                                                aria-selected="false">White</button>
+                                                                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#black1" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Black</button>
+                                                                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#white1" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">White</button>
                                                                 </li>
                                                         </ul>
                                                         <div class="tab-content" id="myTabContent">
-                                                                <div class="tab-pane fade show active" id="black1"
-                                                                        role="tabpanel" aria-labelledby="home-tab">
-                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show active" id="black1" role="tabpanel" aria-labelledby="home-tab">
+                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg" alt=""></a>
                                                                 </div>
-                                                                <div class="tab-pane fade show" id="white1"
-                                                                        role="tabpanel"
-                                                                        aria-labelledby="nav-profile-tab">
-                                                                        <a href="#"> <img
-                                                                                        src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show" id="white1" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                                                        <a href="#"> <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png" alt=""></a>
                                                                 </div>
                                                         </div>
                                                 </div>
@@ -612,8 +530,7 @@
                                         <div class=" product_img px-2 pt-2  mb-2">
                                                 <div class="img_content">
                                                         <a href="#">
-                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg"
-                                                                        alt="Vỏ case Razer Tomahawk ATX">
+                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg" alt="Vỏ case Razer Tomahawk ATX">
                                                         </a>
                                                 </div>
                                         </div>
@@ -636,30 +553,16 @@
                                                 <div class="content_more ">
                                                         <ul class="nav nav-tabs " id="tab_gear" role="tablist">
                                                                 <li class="nav-item d-flex" role="presentation">
-                                                                        <button class="nav-link active"
-                                                                                id="nav-home-tab" data-bs-toggle="tab"
-                                                                                data-bs-target="#black1" type="button"
-                                                                                role="tab" aria-controls="nav-home"
-                                                                                aria-selected="true">Black</button>
-                                                                        <button class="nav-link" id="nav-profile-tab"
-                                                                                data-bs-toggle="tab"
-                                                                                data-bs-target="#white1" type="button"
-                                                                                role="tab" aria-controls="nav-profile"
-                                                                                aria-selected="false">White</button>
+                                                                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#black1" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Black</button>
+                                                                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#white1" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">White</button>
                                                                 </li>
                                                         </ul>
                                                         <div class="tab-content" id="myTabContent">
-                                                                <div class="tab-pane fade show active" id="black1"
-                                                                        role="tabpanel" aria-labelledby="home-tab">
-                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show active" id="black1" role="tabpanel" aria-labelledby="home-tab">
+                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg" alt=""></a>
                                                                 </div>
-                                                                <div class="tab-pane fade show" id="white1"
-                                                                        role="tabpanel"
-                                                                        aria-labelledby="nav-profile-tab">
-                                                                        <a href="#"> <img
-                                                                                        src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show" id="white1" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                                                        <a href="#"> <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png" alt=""></a>
                                                                 </div>
                                                         </div>
                                                 </div>
@@ -669,8 +572,7 @@
                                         <div class=" product_img px-2 pt-2  mb-2">
                                                 <div class="img_content">
                                                         <a href="#">
-                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg"
-                                                                        alt="Vỏ case Razer Tomahawk ATX">
+                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg" alt="Vỏ case Razer Tomahawk ATX">
                                                         </a>
                                                 </div>
                                         </div>
@@ -693,30 +595,16 @@
                                                 <div class="content_more ">
                                                         <ul class="nav nav-tabs " id="tab_gear" role="tablist">
                                                                 <li class="nav-item d-flex" role="presentation">
-                                                                        <button class="nav-link active"
-                                                                                id="nav-home-tab" data-bs-toggle="tab"
-                                                                                data-bs-target="#black1" type="button"
-                                                                                role="tab" aria-controls="nav-home"
-                                                                                aria-selected="true">Black</button>
-                                                                        <button class="nav-link" id="nav-profile-tab"
-                                                                                data-bs-toggle="tab"
-                                                                                data-bs-target="#white1" type="button"
-                                                                                role="tab" aria-controls="nav-profile"
-                                                                                aria-selected="false">White</button>
+                                                                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#black1" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Black</button>
+                                                                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#white1" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">White</button>
                                                                 </li>
                                                         </ul>
                                                         <div class="tab-content" id="myTabContent">
-                                                                <div class="tab-pane fade show active" id="black1"
-                                                                        role="tabpanel" aria-labelledby="home-tab">
-                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show active" id="black1" role="tabpanel" aria-labelledby="home-tab">
+                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg" alt=""></a>
                                                                 </div>
-                                                                <div class="tab-pane fade show" id="white1"
-                                                                        role="tabpanel"
-                                                                        aria-labelledby="nav-profile-tab">
-                                                                        <a href="#"> <img
-                                                                                        src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show" id="white1" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                                                        <a href="#"> <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png" alt=""></a>
                                                                 </div>
                                                         </div>
                                                 </div>
@@ -726,8 +614,7 @@
                                         <div class=" product_img px-2 pt-2  mb-2">
                                                 <div class="img_content">
                                                         <a href="#">
-                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg"
-                                                                        alt="Vỏ case Razer Tomahawk ATX">
+                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg" alt="Vỏ case Razer Tomahawk ATX">
                                                         </a>
                                                 </div>
                                         </div>
@@ -750,30 +637,16 @@
                                                 <div class="content_more ">
                                                         <ul class="nav nav-tabs " id="tab_gear" role="tablist">
                                                                 <li class="nav-item d-flex" role="presentation">
-                                                                        <button class="nav-link active"
-                                                                                id="nav-home-tab" data-bs-toggle="tab"
-                                                                                data-bs-target="#black1" type="button"
-                                                                                role="tab" aria-controls="nav-home"
-                                                                                aria-selected="true">Black</button>
-                                                                        <button class="nav-link" id="nav-profile-tab"
-                                                                                data-bs-toggle="tab"
-                                                                                data-bs-target="#white1" type="button"
-                                                                                role="tab" aria-controls="nav-profile"
-                                                                                aria-selected="false">White</button>
+                                                                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#black1" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Black</button>
+                                                                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#white1" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">White</button>
                                                                 </li>
                                                         </ul>
                                                         <div class="tab-content" id="myTabContent">
-                                                                <div class="tab-pane fade show active" id="black1"
-                                                                        role="tabpanel" aria-labelledby="home-tab">
-                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show active" id="black1" role="tabpanel" aria-labelledby="home-tab">
+                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg" alt=""></a>
                                                                 </div>
-                                                                <div class="tab-pane fade show" id="white1"
-                                                                        role="tabpanel"
-                                                                        aria-labelledby="nav-profile-tab">
-                                                                        <a href="#"> <img
-                                                                                        src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show" id="white1" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                                                        <a href="#"> <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png" alt=""></a>
                                                                 </div>
                                                         </div>
                                                 </div>
@@ -783,8 +656,7 @@
                                         <div class=" product_img px-2 pt-2  mb-2">
                                                 <div class="img_content">
                                                         <a href="#">
-                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg"
-                                                                        alt="Vỏ case Razer Tomahawk ATX">
+                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg" alt="Vỏ case Razer Tomahawk ATX">
                                                         </a>
                                                 </div>
                                         </div>
@@ -807,30 +679,16 @@
                                                 <div class="content_more ">
                                                         <ul class="nav nav-tabs " id="tab_gear" role="tablist">
                                                                 <li class="nav-item d-flex" role="presentation">
-                                                                        <button class="nav-link active"
-                                                                                id="nav-home-tab" data-bs-toggle="tab"
-                                                                                data-bs-target="#black1" type="button"
-                                                                                role="tab" aria-controls="nav-home"
-                                                                                aria-selected="true">Black</button>
-                                                                        <button class="nav-link" id="nav-profile-tab"
-                                                                                data-bs-toggle="tab"
-                                                                                data-bs-target="#white1" type="button"
-                                                                                role="tab" aria-controls="nav-profile"
-                                                                                aria-selected="false">White</button>
+                                                                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#black1" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Black</button>
+                                                                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#white1" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">White</button>
                                                                 </li>
                                                         </ul>
                                                         <div class="tab-content" id="myTabContent">
-                                                                <div class="tab-pane fade show active" id="black1"
-                                                                        role="tabpanel" aria-labelledby="home-tab">
-                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show active" id="black1" role="tabpanel" aria-labelledby="home-tab">
+                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg" alt=""></a>
                                                                 </div>
-                                                                <div class="tab-pane fade show" id="white1"
-                                                                        role="tabpanel"
-                                                                        aria-labelledby="nav-profile-tab">
-                                                                        <a href="#"> <img
-                                                                                        src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show" id="white1" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                                                        <a href="#"> <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png" alt=""></a>
                                                                 </div>
                                                         </div>
                                                 </div>
@@ -840,8 +698,7 @@
                                         <div class=" product_img px-2 pt-2  mb-2">
                                                 <div class="img_content">
                                                         <a href="#">
-                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg"
-                                                                        alt="Vỏ case Razer Tomahawk ATX">
+                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg" alt="Vỏ case Razer Tomahawk ATX">
                                                         </a>
                                                 </div>
                                         </div>
@@ -864,30 +721,16 @@
                                                 <div class="content_more ">
                                                         <ul class="nav nav-tabs " id="tab_gear" role="tablist">
                                                                 <li class="nav-item d-flex" role="presentation">
-                                                                        <button class="nav-link active"
-                                                                                id="nav-home-tab" data-bs-toggle="tab"
-                                                                                data-bs-target="#black2" type="button"
-                                                                                role="tab" aria-controls="nav-home"
-                                                                                aria-selected="true">Black</button>
-                                                                        <button class="nav-link" id="nav-profile-tab"
-                                                                                data-bs-toggle="tab"
-                                                                                data-bs-target="#white2" type="button"
-                                                                                role="tab" aria-controls="nav-profile"
-                                                                                aria-selected="false">White</button>
+                                                                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#black2" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Black</button>
+                                                                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#white2" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">White</button>
                                                                 </li>
                                                         </ul>
                                                         <div class="tab-content" id="myTabContent">
-                                                                <div class="tab-pane fade show active" id="black2"
-                                                                        role="tabpanel" aria-labelledby="home-tab">
-                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show active" id="black2" role="tabpanel" aria-labelledby="home-tab">
+                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg" alt=""></a>
                                                                 </div>
-                                                                <div class="tab-pane fade show" id="white2"
-                                                                        role="tabpanel"
-                                                                        aria-labelledby="nav-profile-tab">
-                                                                        <a href="#"> <img
-                                                                                        src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show" id="white2" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                                                        <a href="#"> <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png" alt=""></a>
                                                                 </div>
                                                         </div>
                                                 </div>
@@ -897,8 +740,7 @@
                                         <div class=" product_img px-2 pt-2  mb-2">
                                                 <div class="img_content">
                                                         <a href="#">
-                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg"
-                                                                        alt="Vỏ case Razer Tomahawk ATX">
+                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg" alt="Vỏ case Razer Tomahawk ATX">
                                                         </a>
                                                 </div>
                                         </div>
@@ -921,30 +763,16 @@
                                                 <div class="content_more ">
                                                         <ul class="nav nav-tabs " id="tab_gear" role="tablist">
                                                                 <li class="nav-item d-flex" role="presentation">
-                                                                        <button class="nav-link active"
-                                                                                id="nav-home-tab" data-bs-toggle="tab"
-                                                                                data-bs-target="#black3" type="button"
-                                                                                role="tab" aria-controls="nav-home"
-                                                                                aria-selected="true">Black</button>
-                                                                        <button class="nav-link" id="nav-profile-tab"
-                                                                                data-bs-toggle="tab"
-                                                                                data-bs-target="#white3" type="button"
-                                                                                role="tab" aria-controls="nav-profile"
-                                                                                aria-selected="false">White</button>
+                                                                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#black3" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Black</button>
+                                                                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#white3" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">White</button>
                                                                 </li>
                                                         </ul>
                                                         <div class="tab-content" id="myTabContent">
-                                                                <div class="tab-pane fade show active" id="black3"
-                                                                        role="tabpanel" aria-labelledby="home-tab">
-                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show active" id="black3" role="tabpanel" aria-labelledby="home-tab">
+                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg" alt=""></a>
                                                                 </div>
-                                                                <div class="tab-pane fade show" id="white3"
-                                                                        role="tabpanel"
-                                                                        aria-labelledby="nav-profile-tab">
-                                                                        <a href="#"> <img
-                                                                                        src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show" id="white3" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                                                        <a href="#"> <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png" alt=""></a>
                                                                 </div>
                                                         </div>
                                                 </div>
@@ -954,8 +782,7 @@
                                         <div class=" product_img px-2 pt-2  mb-2">
                                                 <div class="img_content">
                                                         <a href="#">
-                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg"
-                                                                        alt="Vỏ case Razer Tomahawk ATX">
+                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg" alt="Vỏ case Razer Tomahawk ATX">
                                                         </a>
                                                 </div>
                                         </div>
@@ -978,30 +805,16 @@
                                                 <div class="content_more ">
                                                         <ul class="nav nav-tabs " id="tab_gear" role="tablist">
                                                                 <li class="nav-item d-flex" role="presentation">
-                                                                        <button class="nav-link active"
-                                                                                id="nav-home-tab" data-bs-toggle="tab"
-                                                                                data-bs-target="#black4" type="button"
-                                                                                role="tab" aria-controls="nav-home"
-                                                                                aria-selected="true">Black</button>
-                                                                        <button class="nav-link" id="nav-profile-tab"
-                                                                                data-bs-toggle="tab"
-                                                                                data-bs-target="#white4" type="button"
-                                                                                role="tab" aria-controls="nav-profile"
-                                                                                aria-selected="false">White</button>
+                                                                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#black4" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Black</button>
+                                                                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#white4" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">White</button>
                                                                 </li>
                                                         </ul>
                                                         <div class="tab-content" id="myTabContent">
-                                                                <div class="tab-pane fade show active" id="black4"
-                                                                        role="tabpanel" aria-labelledby="home-tab">
-                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show active" id="black4" role="tabpanel" aria-labelledby="home-tab">
+                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg" alt=""></a>
                                                                 </div>
-                                                                <div class="tab-pane fade show" id="white4"
-                                                                        role="tabpanel"
-                                                                        aria-labelledby="nav-profile-tab">
-                                                                        <a href="#"> <img
-                                                                                        src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show" id="white4" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                                                        <a href="#"> <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png" alt=""></a>
                                                                 </div>
                                                         </div>
                                                 </div>
@@ -1011,8 +824,7 @@
                                         <div class=" product_img px-2 pt-2  mb-2">
                                                 <div class="img_content">
                                                         <a href="#">
-                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg"
-                                                                        alt="Vỏ case Razer Tomahawk ATX">
+                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg" alt="Vỏ case Razer Tomahawk ATX">
                                                         </a>
                                                 </div>
                                         </div>
@@ -1035,30 +847,16 @@
                                                 <div class="content_more ">
                                                         <ul class="nav nav-tabs " id="tab_gear" role="tablist">
                                                                 <li class="nav-item d-flex" role="presentation">
-                                                                        <button class="nav-link active"
-                                                                                id="nav-home-tab" data-bs-toggle="tab"
-                                                                                data-bs-target="#black5" type="button"
-                                                                                role="tab" aria-controls="nav-home"
-                                                                                aria-selected="true">Black</button>
-                                                                        <button class="nav-link" id="nav-profile-tab"
-                                                                                data-bs-toggle="tab"
-                                                                                data-bs-target="#white5" type="button"
-                                                                                role="tab" aria-controls="nav-profile"
-                                                                                aria-selected="false">White</button>
+                                                                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#black5" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Black</button>
+                                                                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#white5" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">White</button>
                                                                 </li>
                                                         </ul>
                                                         <div class="tab-content" id="myTabContent">
-                                                                <div class="tab-pane fade show active" id="black5"
-                                                                        role="tabpanel" aria-labelledby="home-tab">
-                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show active" id="black5" role="tabpanel" aria-labelledby="home-tab">
+                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg" alt=""></a>
                                                                 </div>
-                                                                <div class="tab-pane fade show" id="white5"
-                                                                        role="tabpanel"
-                                                                        aria-labelledby="nav-profile-tab">
-                                                                        <a href="#"> <img
-                                                                                        src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show" id="white5" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                                                        <a href="#"> <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png" alt=""></a>
                                                                 </div>
                                                         </div>
                                                 </div>
@@ -1066,8 +864,7 @@
                                 </div>
                         </div>
                         <div class="seeall mt-5 text-center ">
-                                <a href="#"
-                                        class=" text-decoration-none d-inline-block border border-dark border-1 px-5 rounded-pill">
+                                <a href="#" class=" text-decoration-none d-inline-block border border-dark border-1 px-5 rounded-pill">
                                         Xem tất cả
                                 </a>
                         </div>
@@ -1093,14 +890,12 @@
                                                         <div class=" product_img px-2 pt-2  mb-2">
                                                                 <div class="img_content">
                                                                         <a href="#">
-                                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg"
-                                                                                        alt="Vỏ case Razer Tomahawk ATX">
+                                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg" alt="Vỏ case Razer Tomahawk ATX">
                                                                         </a>
                                                                 </div>
                                                         </div>
                                                         <div class="px-2 mb-0  product_text">
-                                                                <a href="#"
-                                                                        class="mb-1 text-decoration-none inline-block bg-color p-2">
+                                                                <a href="#" class="mb-1 text-decoration-none inline-block bg-color p-2">
                                                                         Đang về
                                                                 </a>
                                                                 <div class="time fw-bold mt-3">
@@ -1121,14 +916,12 @@
                                                                         26.990.000 ₫
                                                                 </div>
                                                                 <div class="addcart mb-4">
-                                                                        <a href="#"
-                                                                                class="mb-1 text-decoration-none inline-block bg-color p-2">
+                                                                        <a href="#" class="mb-1 text-decoration-none inline-block bg-color p-2">
                                                                                 Thêm vào giỏ hàng
                                                                         </a>
                                                                 </div>
                                                                 <div class="compare mb-3">
-                                                                        <a href="#"
-                                                                                class="mb-1 text-decoration-none inline-block bg-color p-2">
+                                                                        <a href="#" class="mb-1 text-decoration-none inline-block bg-color p-2">
                                                                                 So sánh giá
                                                                         </a>
                                                                 </div>
@@ -1138,14 +931,12 @@
                                                         <div class=" product_img px-2 pt-2  mb-2">
                                                                 <div class="img_content">
                                                                         <a href="#">
-                                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg"
-                                                                                        alt="Vỏ case Razer Tomahawk ATX">
+                                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg" alt="Vỏ case Razer Tomahawk ATX">
                                                                         </a>
                                                                 </div>
                                                         </div>
                                                         <div class="px-2 mb-0  product_text">
-                                                                <a href="#"
-                                                                        class="mb-1 text-decoration-none inline-block bg-color p-2">
+                                                                <a href="#" class="mb-1 text-decoration-none inline-block bg-color p-2">
                                                                         Đang về
                                                                 </a>
                                                                 <div class="time fw-bold mt-3">
@@ -1166,14 +957,12 @@
                                                                         26.990.000 ₫
                                                                 </div>
                                                                 <div class="addcart mb-4">
-                                                                        <a href="#"
-                                                                                class="mb-1 text-decoration-none inline-block bg-color p-2">
+                                                                        <a href="#" class="mb-1 text-decoration-none inline-block bg-color p-2">
                                                                                 Thêm vào giỏ hàng
                                                                         </a>
                                                                 </div>
                                                                 <div class="compare mb-3">
-                                                                        <a href="#"
-                                                                                class="mb-1 text-decoration-none inline-block bg-color p-2">
+                                                                        <a href="#" class="mb-1 text-decoration-none inline-block bg-color p-2">
                                                                                 So sánh giá
                                                                         </a>
                                                                 </div>
@@ -1183,14 +972,12 @@
                                                         <div class=" product_img px-2 pt-2  mb-2">
                                                                 <div class="img_content">
                                                                         <a href="#">
-                                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg"
-                                                                                        alt="Vỏ case Razer Tomahawk ATX">
+                                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg" alt="Vỏ case Razer Tomahawk ATX">
                                                                         </a>
                                                                 </div>
                                                         </div>
                                                         <div class="px-2 mb-0  product_text">
-                                                                <a href="#"
-                                                                        class="mb-1 text-decoration-none inline-block bg-color p-2">
+                                                                <a href="#" class="mb-1 text-decoration-none inline-block bg-color p-2">
                                                                         Đang về
                                                                 </a>
                                                                 <div class="time fw-bold mt-3">
@@ -1211,14 +998,12 @@
                                                                         26.990.000 ₫
                                                                 </div>
                                                                 <div class="addcart mb-4">
-                                                                        <a href="#"
-                                                                                class="mb-1 text-decoration-none inline-block bg-color p-2">
+                                                                        <a href="#" class="mb-1 text-decoration-none inline-block bg-color p-2">
                                                                                 Thêm vào giỏ hàng
                                                                         </a>
                                                                 </div>
                                                                 <div class="compare mb-3">
-                                                                        <a href="#"
-                                                                                class="mb-1 text-decoration-none inline-block bg-color p-2">
+                                                                        <a href="#" class="mb-1 text-decoration-none inline-block bg-color p-2">
                                                                                 So sánh giá
                                                                         </a>
                                                                 </div>
@@ -1228,14 +1013,12 @@
                                                         <div class=" product_img px-2 pt-2  mb-2">
                                                                 <div class="img_content">
                                                                         <a href="#">
-                                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg"
-                                                                                        alt="Vỏ case Razer Tomahawk ATX">
+                                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg" alt="Vỏ case Razer Tomahawk ATX">
                                                                         </a>
                                                                 </div>
                                                         </div>
                                                         <div class="px-2 mb-0  product_text">
-                                                                <a href="#"
-                                                                        class="mb-1 text-decoration-none inline-block bg-color p-2">
+                                                                <a href="#" class="mb-1 text-decoration-none inline-block bg-color p-2">
                                                                         Đang về
                                                                 </a>
                                                                 <div class="time fw-bold mt-3">
@@ -1256,14 +1039,12 @@
                                                                         26.990.000 ₫
                                                                 </div>
                                                                 <div class="addcart mb-4">
-                                                                        <a href="#"
-                                                                                class="mb-1 text-decoration-none inline-block bg-color p-2">
+                                                                        <a href="#" class="mb-1 text-decoration-none inline-block bg-color p-2">
                                                                                 Thêm vào giỏ hàng
                                                                         </a>
                                                                 </div>
                                                                 <div class="compare mb-3">
-                                                                        <a href="#"
-                                                                                class="mb-1 text-decoration-none inline-block bg-color p-2">
+                                                                        <a href="#" class="mb-1 text-decoration-none inline-block bg-color p-2">
                                                                                 So sánh giá
                                                                         </a>
                                                                 </div>
@@ -1273,14 +1054,12 @@
                                                         <div class=" product_img px-2 pt-2  mb-2">
                                                                 <div class="img_content">
                                                                         <a href="#">
-                                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg"
-                                                                                        alt="Vỏ case Razer Tomahawk ATX">
+                                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg" alt="Vỏ case Razer Tomahawk ATX">
                                                                         </a>
                                                                 </div>
                                                         </div>
                                                         <div class="px-2 mb-0  product_text">
-                                                                <a href="#"
-                                                                        class="mb-1 text-decoration-none inline-block bg-color p-2">
+                                                                <a href="#" class="mb-1 text-decoration-none inline-block bg-color p-2">
                                                                         Đang về
                                                                 </a>
                                                                 <div class="time fw-bold mt-3">
@@ -1301,14 +1080,12 @@
                                                                         26.990.000 ₫
                                                                 </div>
                                                                 <div class="addcart mb-4">
-                                                                        <a href="#"
-                                                                                class="mb-1 text-decoration-none inline-block bg-color p-2">
+                                                                        <a href="#" class="mb-1 text-decoration-none inline-block bg-color p-2">
                                                                                 Thêm vào giỏ hàng
                                                                         </a>
                                                                 </div>
                                                                 <div class="compare mb-3">
-                                                                        <a href="#"
-                                                                                class="mb-1 text-decoration-none inline-block bg-color p-2">
+                                                                        <a href="#" class="mb-1 text-decoration-none inline-block bg-color p-2">
                                                                                 So sánh giá
                                                                         </a>
                                                                 </div>
@@ -1318,14 +1095,12 @@
                                                         <div class=" product_img px-2 pt-2  mb-2">
                                                                 <div class="img_content">
                                                                         <a href="#">
-                                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg"
-                                                                                        alt="Vỏ case Razer Tomahawk ATX">
+                                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg" alt="Vỏ case Razer Tomahawk ATX">
                                                                         </a>
                                                                 </div>
                                                         </div>
                                                         <div class="px-2 mb-0  product_text">
-                                                                <a href="#"
-                                                                        class="mb-1 text-decoration-none inline-block bg-color p-2">
+                                                                <a href="#" class="mb-1 text-decoration-none inline-block bg-color p-2">
                                                                         Đang về
                                                                 </a>
                                                                 <div class="time fw-bold mt-3">
@@ -1346,14 +1121,12 @@
                                                                         26.990.000 ₫
                                                                 </div>
                                                                 <div class="addcart mb-4">
-                                                                        <a href="#"
-                                                                                class="mb-1 text-decoration-none inline-block bg-color p-2">
+                                                                        <a href="#" class="mb-1 text-decoration-none inline-block bg-color p-2">
                                                                                 Thêm vào giỏ hàng
                                                                         </a>
                                                                 </div>
                                                                 <div class="compare mb-3">
-                                                                        <a href="#"
-                                                                                class="mb-1 text-decoration-none inline-block bg-color p-2">
+                                                                        <a href="#" class="mb-1 text-decoration-none inline-block bg-color p-2">
                                                                                 So sánh giá
                                                                         </a>
                                                                 </div>
@@ -1363,14 +1136,12 @@
                                                         <div class=" product_img px-2 pt-2  mb-2">
                                                                 <div class="img_content">
                                                                         <a href="#">
-                                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg"
-                                                                                        alt="Vỏ case Razer Tomahawk ATX">
+                                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg" alt="Vỏ case Razer Tomahawk ATX">
                                                                         </a>
                                                                 </div>
                                                         </div>
                                                         <div class="px-2 mb-0  product_text">
-                                                                <a href="#"
-                                                                        class="mb-1 text-decoration-none inline-block bg-color p-2">
+                                                                <a href="#" class="mb-1 text-decoration-none inline-block bg-color p-2">
                                                                         Đang về
                                                                 </a>
                                                                 <div class="time fw-bold mt-3">
@@ -1391,14 +1162,12 @@
                                                                         26.990.000 ₫
                                                                 </div>
                                                                 <div class="addcart mb-4">
-                                                                        <a href="#"
-                                                                                class="mb-1 text-decoration-none inline-block bg-color p-2">
+                                                                        <a href="#" class="mb-1 text-decoration-none inline-block bg-color p-2">
                                                                                 Thêm vào giỏ hàng
                                                                         </a>
                                                                 </div>
                                                                 <div class="compare mb-3">
-                                                                        <a href="#"
-                                                                                class="mb-1 text-decoration-none inline-block bg-color p-2">
+                                                                        <a href="#" class="mb-1 text-decoration-none inline-block bg-color p-2">
                                                                                 So sánh giá
                                                                         </a>
                                                                 </div>
@@ -1410,8 +1179,7 @@
                                 <div class="swiper-button-prev"></div>
                         </div>
                         <div class="seeall mt-5 text-center ">
-                                <a href="#"
-                                        class=" text-decoration-none d-inline-block border border-dark border-1 px-5 rounded-pill">
+                                <a href="#" class=" text-decoration-none d-inline-block border border-dark border-1 px-5 rounded-pill">
                                         Xem tất cả
                                 </a>
                         </div>
@@ -1443,39 +1211,25 @@
                                 <span class=" fs-5 fw-bold me-3"> Thương hiệu </span>
                                 <span class="d-flex flex-wrap">
                                         <a href="#" class="text-decoration-none">
-                                                <img class="asus border border-1 border-light rounded inline-block me-2 mb-3 "
-                                                        src="https://lumen.thinkpro.vn/backend/uploads/brand/icon/2020/8/7/lenovo.png"
-                                                        alt="">
+                                                <img class="asus border border-1 border-light rounded inline-block me-2 mb-3 " src="https://lumen.thinkpro.vn/backend/uploads/brand/icon/2020/8/7/lenovo.png" alt="">
                                         </a>
                                         <a href="#" class="text-decoration-none">
-                                                <img class="asus border border-1 border-light rounded inline-block me-2 mb-3 "
-                                                        src="https://lumen.thinkpro.vn/backend/uploads/brand/icon/2020/8/7/dell.png"
-                                                        alt="">
+                                                <img class="asus border border-1 border-light rounded inline-block me-2 mb-3 " src="https://lumen.thinkpro.vn/backend/uploads/brand/icon/2020/8/7/dell.png" alt="">
                                         </a>
                                         <a href="#" class="text-decoration-none">
-                                                <img class="asus border border-1 border-light rounded inline-block me-2 mb-3 "
-                                                        src="https://lumen.thinkpro.vn/backend/uploads/brand/icon/2020/8/7/asus.png"
-                                                        alt="">
+                                                <img class="asus border border-1 border-light rounded inline-block me-2 mb-3 " src="https://lumen.thinkpro.vn/backend/uploads/brand/icon/2020/8/7/asus.png" alt="">
                                         </a>
                                         <a href="#" class="text-decoration-none">
-                                                <img class="asus border border-1 border-light rounded inline-block me-2 mb-3 "
-                                                        src="https://lumen.thinkpro.vn/backend/uploads/brand/icon/2020/8/7/hp.png"
-                                                        alt="">
+                                                <img class="asus border border-1 border-light rounded inline-block me-2 mb-3 " src="https://lumen.thinkpro.vn/backend/uploads/brand/icon/2020/8/7/hp.png" alt="">
                                         </a>
                                         <a href="#" class="text-decoration-none">
-                                                <img class="asus border border-1 border-light rounded inline-block me-2 mb-3 "
-                                                        src="https://lumen.thinkpro.vn/backend/uploads/brand/icon/2020/9/24/5f6c4ee7ed9fd_1600933607.png"
-                                                        alt="">
+                                                <img class="asus border border-1 border-light rounded inline-block me-2 mb-3 " src="https://lumen.thinkpro.vn/backend/uploads/brand/icon/2020/9/24/5f6c4ee7ed9fd_1600933607.png" alt="">
                                         </a>
                                         <a href="#" class="text-decoration-none">
-                                                <img class="asus border border-1 border-light rounded inline-block me-2 mb-3 "
-                                                        src="https://lumen.thinkpro.vn/backend/uploads/brand/icon/2020/8/7/acer.png"
-                                                        alt="">
+                                                <img class="asus border border-1 border-light rounded inline-block me-2 mb-3 " src="https://lumen.thinkpro.vn/backend/uploads/brand/icon/2020/8/7/acer.png" alt="">
                                         </a>
                                         <a href="#" class="text-decoration-none">
-                                                <img class="asus border border-1 border-light rounded inline-block me-2 mb-3 "
-                                                        src="https://lumen.thinkpro.vn/backend/uploads/brand/icon/2021/2/2/6018ddb8511fb_1612242360.png"
-                                                        alt="">
+                                                <img class="asus border border-1 border-light rounded inline-block me-2 mb-3 " src="https://lumen.thinkpro.vn/backend/uploads/brand/icon/2021/2/2/6018ddb8511fb_1612242360.png" alt="">
                                         </a>
                                 </span>
                         </div>
@@ -1503,8 +1257,7 @@
                                         <div class=" product_img px-2 pt-2  mb-2">
                                                 <div class="img_content">
                                                         <a href="#">
-                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg"
-                                                                        alt="Vỏ case Razer Tomahawk ATX">
+                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg" alt="Vỏ case Razer Tomahawk ATX">
                                                         </a>
                                                 </div>
                                         </div>
@@ -1527,32 +1280,16 @@
                                                 <div class="content_more ">
                                                         <ul class="nav nav-tabs " id="tab_gear" role="tablist">
                                                                 <li class="nav-item d-flex" role="presentation">
-                                                                        <button class="nav-link active"
-                                                                                id="nav-home-tab" data-bs-toggle="tab"
-                                                                                data-bs-target="#black_pc1"
-                                                                                type="button" role="tab"
-                                                                                aria-controls="nav-home"
-                                                                                aria-selected="true">Black</button>
-                                                                        <button class="nav-link" id="nav-profile-tab"
-                                                                                data-bs-toggle="tab"
-                                                                                data-bs-target="#white_pc1"
-                                                                                type="button" role="tab"
-                                                                                aria-controls="nav-profile"
-                                                                                aria-selected="false">White</button>
+                                                                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#black_pc1" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Black</button>
+                                                                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#white_pc1" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">White</button>
                                                                 </li>
                                                         </ul>
                                                         <div class="tab-content" id="myTabContent">
-                                                                <div class="tab-pane fade show active" id="black_pc1"
-                                                                        role="tabpanel" aria-labelledby="home-tab">
-                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show active" id="black_pc1" role="tabpanel" aria-labelledby="home-tab">
+                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg" alt=""></a>
                                                                 </div>
-                                                                <div class="tab-pane fade show" id="white_pc1"
-                                                                        role="tabpanel"
-                                                                        aria-labelledby="nav-profile-tab">
-                                                                        <a href="#"> <img
-                                                                                        src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show" id="white_pc1" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                                                        <a href="#"> <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png" alt=""></a>
                                                                 </div>
                                                         </div>
                                                 </div>
@@ -1562,8 +1299,7 @@
                                         <div class=" product_img px-2 pt-2  mb-2">
                                                 <div class="img_content">
                                                         <a href="#">
-                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg"
-                                                                        alt="Vỏ case Razer Tomahawk ATX">
+                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg" alt="Vỏ case Razer Tomahawk ATX">
                                                         </a>
                                                 </div>
                                         </div>
@@ -1586,32 +1322,16 @@
                                                 <div class="content_more ">
                                                         <ul class="nav nav-tabs " id="tab_gear" role="tablist">
                                                                 <li class="nav-item d-flex" role="presentation">
-                                                                        <button class="nav-link active"
-                                                                                id="nav-home-tab" data-bs-toggle="tab"
-                                                                                data-bs-target="#black_pc2"
-                                                                                type="button" role="tab"
-                                                                                aria-controls="nav-home"
-                                                                                aria-selected="true">Black</button>
-                                                                        <button class="nav-link" id="nav-profile-tab"
-                                                                                data-bs-toggle="tab"
-                                                                                data-bs-target="#white_pc2"
-                                                                                type="button" role="tab"
-                                                                                aria-controls="nav-profile"
-                                                                                aria-selected="false">White</button>
+                                                                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#black_pc2" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Black</button>
+                                                                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#white_pc2" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">White</button>
                                                                 </li>
                                                         </ul>
                                                         <div class="tab-content" id="myTabContent">
-                                                                <div class="tab-pane fade show active" id="black_pc2"
-                                                                        role="tabpanel" aria-labelledby="home-tab">
-                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show active" id="black_pc2" role="tabpanel" aria-labelledby="home-tab">
+                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg" alt=""></a>
                                                                 </div>
-                                                                <div class="tab-pane fade show" id="white_pc2"
-                                                                        role="tabpanel"
-                                                                        aria-labelledby="nav-profile-tab">
-                                                                        <a href="#"> <img
-                                                                                        src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show" id="white_pc2" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                                                        <a href="#"> <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png" alt=""></a>
                                                                 </div>
                                                         </div>
                                                 </div>
@@ -1621,8 +1341,7 @@
                                         <div class=" product_img px-2 pt-2  mb-2">
                                                 <div class="img_content">
                                                         <a href="#">
-                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg"
-                                                                        alt="Vỏ case Razer Tomahawk ATX">
+                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg" alt="Vỏ case Razer Tomahawk ATX">
                                                         </a>
                                                 </div>
                                         </div>
@@ -1645,32 +1364,16 @@
                                                 <div class="content_more ">
                                                         <ul class="nav nav-tabs " id="tab_gear" role="tablist">
                                                                 <li class="nav-item d-flex" role="presentation">
-                                                                        <button class="nav-link active"
-                                                                                id="nav-home-tab" data-bs-toggle="tab"
-                                                                                data-bs-target="#black_pc3"
-                                                                                type="button" role="tab"
-                                                                                aria-controls="nav-home"
-                                                                                aria-selected="true">Black</button>
-                                                                        <button class="nav-link" id="nav-profile-tab"
-                                                                                data-bs-toggle="tab"
-                                                                                data-bs-target="#white_pc3"
-                                                                                type="button" role="tab"
-                                                                                aria-controls="nav-profile"
-                                                                                aria-selected="false">White</button>
+                                                                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#black_pc3" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Black</button>
+                                                                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#white_pc3" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">White</button>
                                                                 </li>
                                                         </ul>
                                                         <div class="tab-content" id="myTabContent">
-                                                                <div class="tab-pane fade show active" id="black_pc3"
-                                                                        role="tabpanel" aria-labelledby="home-tab">
-                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show active" id="black_pc3" role="tabpanel" aria-labelledby="home-tab">
+                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg" alt=""></a>
                                                                 </div>
-                                                                <div class="tab-pane fade show" id="white_pc3"
-                                                                        role="tabpanel"
-                                                                        aria-labelledby="nav-profile-tab">
-                                                                        <a href="#"> <img
-                                                                                        src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show" id="white_pc3" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                                                        <a href="#"> <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png" alt=""></a>
                                                                 </div>
                                                         </div>
                                                 </div>
@@ -1680,8 +1383,7 @@
                                         <div class=" product_img px-2 pt-2  mb-2">
                                                 <div class="img_content">
                                                         <a href="#">
-                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg"
-                                                                        alt="Vỏ case Razer Tomahawk ATX">
+                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg" alt="Vỏ case Razer Tomahawk ATX">
                                                         </a>
                                                 </div>
                                         </div>
@@ -1704,32 +1406,16 @@
                                                 <div class="content_more ">
                                                         <ul class="nav nav-tabs " id="tab_gear" role="tablist">
                                                                 <li class="nav-item d-flex" role="presentation">
-                                                                        <button class="nav-link active"
-                                                                                id="nav-home-tab" data-bs-toggle="tab"
-                                                                                data-bs-target="#black_pc4"
-                                                                                type="button" role="tab"
-                                                                                aria-controls="nav-home"
-                                                                                aria-selected="true">Black</button>
-                                                                        <button class="nav-link" id="nav-profile-tab"
-                                                                                data-bs-toggle="tab"
-                                                                                data-bs-target="#white_pc4"
-                                                                                type="button" role="tab"
-                                                                                aria-controls="nav-profile"
-                                                                                aria-selected="false">White</button>
+                                                                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#black_pc4" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Black</button>
+                                                                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#white_pc4" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">White</button>
                                                                 </li>
                                                         </ul>
                                                         <div class="tab-content" id="myTabContent">
-                                                                <div class="tab-pane fade show active" id="black_pc4"
-                                                                        role="tabpanel" aria-labelledby="home-tab">
-                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show active" id="black_pc4" role="tabpanel" aria-labelledby="home-tab">
+                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg" alt=""></a>
                                                                 </div>
-                                                                <div class="tab-pane fade show" id="white_pc4"
-                                                                        role="tabpanel"
-                                                                        aria-labelledby="nav-profile-tab">
-                                                                        <a href="#"> <img
-                                                                                        src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show" id="white_pc4" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                                                        <a href="#"> <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png" alt=""></a>
                                                                 </div>
                                                         </div>
                                                 </div>
@@ -1739,8 +1425,7 @@
                                         <div class=" product_img px-2 pt-2  mb-2">
                                                 <div class="img_content">
                                                         <a href="#">
-                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg"
-                                                                        alt="Vỏ case Razer Tomahawk ATX">
+                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg" alt="Vỏ case Razer Tomahawk ATX">
                                                         </a>
                                                 </div>
                                         </div>
@@ -1763,32 +1448,16 @@
                                                 <div class="content_more ">
                                                         <ul class="nav nav-tabs " id="tab_gear" role="tablist">
                                                                 <li class="nav-item d-flex" role="presentation">
-                                                                        <button class="nav-link active"
-                                                                                id="nav-home-tab" data-bs-toggle="tab"
-                                                                                data-bs-target="#black_pc5"
-                                                                                type="button" role="tab"
-                                                                                aria-controls="nav-home"
-                                                                                aria-selected="true">Black</button>
-                                                                        <button class="nav-link" id="nav-profile-tab"
-                                                                                data-bs-toggle="tab"
-                                                                                data-bs-target="#white_pc5"
-                                                                                type="button" role="tab"
-                                                                                aria-controls="nav-profile"
-                                                                                aria-selected="false">White</button>
+                                                                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#black_pc5" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Black</button>
+                                                                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#white_pc5" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">White</button>
                                                                 </li>
                                                         </ul>
                                                         <div class="tab-content" id="myTabContent">
-                                                                <div class="tab-pane fade show active" id="black_pc5"
-                                                                        role="tabpanel" aria-labelledby="home-tab">
-                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show active" id="black_pc5" role="tabpanel" aria-labelledby="home-tab">
+                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg" alt=""></a>
                                                                 </div>
-                                                                <div class="tab-pane fade show" id="white_pc5"
-                                                                        role="tabpanel"
-                                                                        aria-labelledby="nav-profile-tab">
-                                                                        <a href="#"> <img
-                                                                                        src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show" id="white_pc5" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                                                        <a href="#"> <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png" alt=""></a>
                                                                 </div>
                                                         </div>
                                                 </div>
@@ -1796,8 +1465,7 @@
                                 </div>
                         </div>
                         <div class="seeall mt-5 text-center ">
-                                <a href="#"
-                                        class=" text-decoration-none d-inline-block border border-dark border-1 px-5 rounded-pill">
+                                <a href="#" class=" text-decoration-none d-inline-block border border-dark border-1 px-5 rounded-pill">
                                         Xem tất cả
                                 </a>
                         </div>
@@ -1811,8 +1479,7 @@
                                         <div class=" product_img px-2 pt-2  mb-2">
                                                 <div class="img_content">
                                                         <a href="#">
-                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg"
-                                                                        alt="Vỏ case Razer Tomahawk ATX">
+                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg" alt="Vỏ case Razer Tomahawk ATX">
                                                         </a>
                                                 </div>
                                         </div>
@@ -1835,30 +1502,16 @@
                                                 <div class="content_more ">
                                                         <ul class="nav nav-tabs " id="tab_gear" role="tablist">
                                                                 <li class="nav-item d-flex" role="presentation">
-                                                                        <button class="nav-link active"
-                                                                                id="nav-home-tab" data-bs-toggle="tab"
-                                                                                data-bs-target="#black1" type="button"
-                                                                                role="tab" aria-controls="nav-home"
-                                                                                aria-selected="true">Black</button>
-                                                                        <button class="nav-link" id="nav-profile-tab"
-                                                                                data-bs-toggle="tab"
-                                                                                data-bs-target="#white1" type="button"
-                                                                                role="tab" aria-controls="nav-profile"
-                                                                                aria-selected="false">White</button>
+                                                                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#black1" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Black</button>
+                                                                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#white1" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">White</button>
                                                                 </li>
                                                         </ul>
                                                         <div class="tab-content" id="myTabContent">
-                                                                <div class="tab-pane fade show active" id="black1"
-                                                                        role="tabpanel" aria-labelledby="home-tab">
-                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show active" id="black1" role="tabpanel" aria-labelledby="home-tab">
+                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg" alt=""></a>
                                                                 </div>
-                                                                <div class="tab-pane fade show" id="white1"
-                                                                        role="tabpanel"
-                                                                        aria-labelledby="nav-profile-tab">
-                                                                        <a href="#"> <img
-                                                                                        src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show" id="white1" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                                                        <a href="#"> <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png" alt=""></a>
                                                                 </div>
                                                         </div>
                                                 </div>
@@ -1868,8 +1521,7 @@
                                         <div class=" product_img px-2 pt-2  mb-2">
                                                 <div class="img_content">
                                                         <a href="#">
-                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg"
-                                                                        alt="Vỏ case Razer Tomahawk ATX">
+                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg" alt="Vỏ case Razer Tomahawk ATX">
                                                         </a>
                                                 </div>
                                         </div>
@@ -1892,30 +1544,16 @@
                                                 <div class="content_more ">
                                                         <ul class="nav nav-tabs " id="tab_gear" role="tablist">
                                                                 <li class="nav-item d-flex" role="presentation">
-                                                                        <button class="nav-link active"
-                                                                                id="nav-home-tab" data-bs-toggle="tab"
-                                                                                data-bs-target="#black2" type="button"
-                                                                                role="tab" aria-controls="nav-home"
-                                                                                aria-selected="true">Black</button>
-                                                                        <button class="nav-link" id="nav-profile-tab"
-                                                                                data-bs-toggle="tab"
-                                                                                data-bs-target="#white2" type="button"
-                                                                                role="tab" aria-controls="nav-profile"
-                                                                                aria-selected="false">White</button>
+                                                                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#black2" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Black</button>
+                                                                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#white2" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">White</button>
                                                                 </li>
                                                         </ul>
                                                         <div class="tab-content" id="myTabContent">
-                                                                <div class="tab-pane fade show active" id="black2"
-                                                                        role="tabpanel" aria-labelledby="home-tab">
-                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show active" id="black2" role="tabpanel" aria-labelledby="home-tab">
+                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg" alt=""></a>
                                                                 </div>
-                                                                <div class="tab-pane fade show" id="white2"
-                                                                        role="tabpanel"
-                                                                        aria-labelledby="nav-profile-tab">
-                                                                        <a href="#"> <img
-                                                                                        src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show" id="white2" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                                                        <a href="#"> <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png" alt=""></a>
                                                                 </div>
                                                         </div>
                                                 </div>
@@ -1925,8 +1563,7 @@
                                         <div class=" product_img px-2 pt-2  mb-2">
                                                 <div class="img_content">
                                                         <a href="#">
-                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg"
-                                                                        alt="Vỏ case Razer Tomahawk ATX">
+                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg" alt="Vỏ case Razer Tomahawk ATX">
                                                         </a>
                                                 </div>
                                         </div>
@@ -1949,30 +1586,16 @@
                                                 <div class="content_more ">
                                                         <ul class="nav nav-tabs " id="tab_gear" role="tablist">
                                                                 <li class="nav-item d-flex" role="presentation">
-                                                                        <button class="nav-link active"
-                                                                                id="nav-home-tab" data-bs-toggle="tab"
-                                                                                data-bs-target="#black3" type="button"
-                                                                                role="tab" aria-controls="nav-home"
-                                                                                aria-selected="true">Black</button>
-                                                                        <button class="nav-link" id="nav-profile-tab"
-                                                                                data-bs-toggle="tab"
-                                                                                data-bs-target="#white3" type="button"
-                                                                                role="tab" aria-controls="nav-profile"
-                                                                                aria-selected="false">White</button>
+                                                                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#black3" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Black</button>
+                                                                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#white3" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">White</button>
                                                                 </li>
                                                         </ul>
                                                         <div class="tab-content" id="myTabContent">
-                                                                <div class="tab-pane fade show active" id="black3"
-                                                                        role="tabpanel" aria-labelledby="home-tab">
-                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show active" id="black3" role="tabpanel" aria-labelledby="home-tab">
+                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg" alt=""></a>
                                                                 </div>
-                                                                <div class="tab-pane fade show" id="white3"
-                                                                        role="tabpanel"
-                                                                        aria-labelledby="nav-profile-tab">
-                                                                        <a href="#"> <img
-                                                                                        src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show" id="white3" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                                                        <a href="#"> <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png" alt=""></a>
                                                                 </div>
                                                         </div>
                                                 </div>
@@ -1982,8 +1605,7 @@
                                         <div class=" product_img px-2 pt-2  mb-2">
                                                 <div class="img_content">
                                                         <a href="#">
-                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg"
-                                                                        alt="Vỏ case Razer Tomahawk ATX">
+                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg" alt="Vỏ case Razer Tomahawk ATX">
                                                         </a>
                                                 </div>
                                         </div>
@@ -2006,30 +1628,16 @@
                                                 <div class="content_more ">
                                                         <ul class="nav nav-tabs " id="tab_gear" role="tablist">
                                                                 <li class="nav-item d-flex" role="presentation">
-                                                                        <button class="nav-link active"
-                                                                                id="nav-home-tab" data-bs-toggle="tab"
-                                                                                data-bs-target="#black4" type="button"
-                                                                                role="tab" aria-controls="nav-home"
-                                                                                aria-selected="true">Black</button>
-                                                                        <button class="nav-link" id="nav-profile-tab"
-                                                                                data-bs-toggle="tab"
-                                                                                data-bs-target="#white4" type="button"
-                                                                                role="tab" aria-controls="nav-profile"
-                                                                                aria-selected="false">White</button>
+                                                                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#black4" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Black</button>
+                                                                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#white4" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">White</button>
                                                                 </li>
                                                         </ul>
                                                         <div class="tab-content" id="myTabContent">
-                                                                <div class="tab-pane fade show active" id="black4"
-                                                                        role="tabpanel" aria-labelledby="home-tab">
-                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show active" id="black4" role="tabpanel" aria-labelledby="home-tab">
+                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg" alt=""></a>
                                                                 </div>
-                                                                <div class="tab-pane fade show" id="white4"
-                                                                        role="tabpanel"
-                                                                        aria-labelledby="nav-profile-tab">
-                                                                        <a href="#"> <img
-                                                                                        src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show" id="white4" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                                                        <a href="#"> <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png" alt=""></a>
                                                                 </div>
                                                         </div>
                                                 </div>
@@ -2039,8 +1647,7 @@
                                         <div class=" product_img px-2 pt-2  mb-2">
                                                 <div class="img_content">
                                                         <a href="#">
-                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg"
-                                                                        alt="Vỏ case Razer Tomahawk ATX">
+                                                                <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00.jpg" alt="Vỏ case Razer Tomahawk ATX">
                                                         </a>
                                                 </div>
                                         </div>
@@ -2063,30 +1670,16 @@
                                                 <div class="content_more ">
                                                         <ul class="nav nav-tabs " id="tab_gear" role="tablist">
                                                                 <li class="nav-item d-flex" role="presentation">
-                                                                        <button class="nav-link active"
-                                                                                id="nav-home-tab" data-bs-toggle="tab"
-                                                                                data-bs-target="#black5" type="button"
-                                                                                role="tab" aria-controls="nav-home"
-                                                                                aria-selected="true">Black</button>
-                                                                        <button class="nav-link" id="nav-profile-tab"
-                                                                                data-bs-toggle="tab"
-                                                                                data-bs-target="#white5" type="button"
-                                                                                role="tab" aria-controls="nav-profile"
-                                                                                aria-selected="false">White</button>
+                                                                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#black5" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Black</button>
+                                                                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#white5" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">White</button>
                                                                 </li>
                                                         </ul>
                                                         <div class="tab-content" id="myTabContent">
-                                                                <div class="tab-pane fade show active" id="black5"
-                                                                        role="tabpanel" aria-labelledby="home-tab">
-                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show active" id="black5" role="tabpanel" aria-labelledby="home-tab">
+                                                                        <a href="#"><img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/11/3/CaseRazerATX_00-medium.jpg" alt=""></a>
                                                                 </div>
-                                                                <div class="tab-pane fade show" id="white5"
-                                                                        role="tabpanel"
-                                                                        aria-labelledby="nav-profile-tab">
-                                                                        <a href="#"> <img
-                                                                                        src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png"
-                                                                                        alt=""></a>
+                                                                <div class="tab-pane fade show" id="white5" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                                                        <a href="#"> <img src="https://lumen.thinkpro.vn//backend/uploads/product/avatar/2020/12/28/MacminiM1_00-medium.png" alt=""></a>
                                                                 </div>
                                                         </div>
                                                 </div>
@@ -2094,8 +1687,7 @@
                                 </div>
                         </div>
                         <div class="seeall mt-5 text-center ">
-                                <a href="#"
-                                        class=" text-decoration-none d-inline-block border border-dark border-1 px-5 rounded-pill">
+                                <a href="#" class=" text-decoration-none d-inline-block border border-dark border-1 px-5 rounded-pill">
                                         Xem tất cả
                                 </a>
                         </div>
@@ -2107,39 +1699,28 @@
                                 <div class="footer_top mb-4">
                                         <div class="row">
                                                 <a href="#" title class="fs-logo col-lg-8 col-md-7">
-                                                        <img src="https://thinkpro.vn/images/logo2.svg"
-                                                                alt="logo footer">
+                                                        <img src="https://thinkpro.vn/images/logo2.svg" alt="logo footer">
                                                 </a>
-                                                <div
-                                                        class="ft-right col-lg-4 col-md-5 d-flex justify-content-between align-items-center">
+                                                <div class="ft-right col-lg-4 col-md-5 d-flex justify-content-between align-items-center">
                                                         <div class="hotline">
                                                                 <div class="text-opacity-50">Hotline</div>
                                                                 <a href="tel:1900633579">1900.63.3579</a>
                                                         </div>
                                                         <div class="social ">
                                                                 <ul class="d-flex justify-content-center ">
-                                                                        <li
-                                                                                class="d-flex justify-content-center align-items-center rounded-circle me-3">
+                                                                        <li class="d-flex justify-content-center align-items-center rounded-circle me-3">
                                                                                 <a href="#" class="d-inline-flex">
-                                                                                        <img class=""
-                                                                                                src="./public/svg/youtube.svg"
-                                                                                                alt="">
+                                                                                        <img class="" src="./public/svg/youtube.svg" alt="">
                                                                                 </a>
                                                                         </li>
-                                                                        <li
-                                                                                class="d-flex justify-content-center align-items-center rounded-circle me-3">
+                                                                        <li class="d-flex justify-content-center align-items-center rounded-circle me-3">
                                                                                 <a href="#" class="d-inline-flex">
-                                                                                        <img class="icon_3"
-                                                                                                src="./public/svg/facebook.svg"
-                                                                                                alt="">
+                                                                                        <img class="icon_3" src="./public/svg/facebook.svg" alt="">
                                                                                 </a>
                                                                         </li>
-                                                                        <li
-                                                                                class="d-flex justify-content-center align-items-center rounded-circle">
+                                                                        <li class="d-flex justify-content-center align-items-center rounded-circle">
                                                                                 <a href="#" class="d-inline-flex">
-                                                                                        <img class="icon_3"
-                                                                                                src="./public/svg/instagram.svg"
-                                                                                                alt="">
+                                                                                        <img class="icon_3" src="./public/svg/instagram.svg" alt="">
                                                                                 </a>
                                                                         </li>
                                                                 </ul>
@@ -2215,21 +1796,18 @@
                                                                 <p class="fw-normal fs-6">Hà Nội :</p>
                                                                 <p class="fw-normal fs-6">105/562 Đường Láng, P. Láng
                                                                         Hạ, Q. Đống Đa</p>
-                                                                <a href="#"
-                                                                        class="fw-normal fs-6 text-decoration-none">Chỉ
+                                                                <a href="#" class="fw-normal fs-6 text-decoration-none">Chỉ
                                                                         đường</a>
                                                                 <p class="fw-normal fs-6">105/562 Đường Láng, P. Láng
                                                                         Hạ, Q. Đống Đa</p>
-                                                                <a href="#"
-                                                                        class="fw-normal fs-6 text-decoration-none">Chỉ
+                                                                <a href="#" class="fw-normal fs-6 text-decoration-none">Chỉ
                                                                         đường</a>
                                                         </div>
                                                         <div class="col-6">
                                                                 <p class="fw-normal fs-6">Hà Nội :</p>
                                                                 <p class="fw-normal fs-6">105/562 Đường Láng, P. Láng
                                                                         Hạ, Q. Đống Đa</p>
-                                                                <a href="#"
-                                                                        class="fw-normal fs-6 text-decoration-none">Chỉ
+                                                                <a href="#" class="fw-normal fs-6 text-decoration-none">Chỉ
                                                                         đường</a>
                                                         </div>
                                                 </div>
@@ -2243,8 +1821,7 @@
                                         </div>
                                         <div class="right">
                                                 <a href="#">
-                                                        <img src="https://thinkpro.vn/images/graphics/bocongthuong.png"
-                                                                alt="">
+                                                        <img src="https://thinkpro.vn/images/graphics/bocongthuong.png" alt="">
                                                 </a>
                                         </div>
                                 </div>
@@ -2373,9 +1950,7 @@
                 <div class="ctrlq fb-overlay"></div>
                 <div class="fb-widget">
                         <div class="ctrlq fb-close"></div>
-                        <div class="fb-page" data-href="https://www.facebook.com/skunkworks.ca" data-tabs="messages"
-                                data-width="360" data-height="400" data-small-header="true" data-hide-cover="true"
-                                data-show-facepile="false">
+                        <div class="fb-page" data-href="https://www.facebook.com/skunkworks.ca" data-tabs="messages" data-width="360" data-height="400" data-small-header="true" data-hide-cover="true" data-show-facepile="false">
                                 <blockquote cite="https://www.facebook.com/skunkworks.ca" class="fb-xfbml-parse-ignore">
                                 </blockquote>
                         </div>
@@ -2390,22 +1965,22 @@
         <script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         <script>
-                $(document).ready(function () {
+                $(document).ready(function() {
                         var t = {
                                 delay: 125,
                                 overlay: $(".fb-overlay"),
                                 widget: $(".fb-widget"),
                                 button: $(".fb-button")
                         };
-                        setTimeout(function () {
+                        setTimeout(function() {
                                 $("div.fb-livechat").fadeIn()
-                        }, 8 * t.delay), $(".ctrlq").on("click", function (e) {
+                        }, 8 * t.delay), $(".ctrlq").on("click", function(e) {
                                 e.preventDefault(), t.overlay.is(":visible") ? (t.overlay.fadeOut(t.delay), t.widget.stop().animate({
                                         bottom: 0,
                                         opacity: 0
-                                }, 2 * t.delay, function () {
+                                }, 2 * t.delay, function() {
                                         $(this).hide("slow"), t.button.show()
-                                })) : t.button.fadeOut("medium", function () {
+                                })) : t.button.fadeOut("medium", function() {
                                         t.widget.stop().show().animate({
                                                 bottom: "30px",
                                                 opacity: 1
@@ -2418,8 +1993,7 @@
         <!-- <div class="fixed-action-btn"><a class="btn-floating btn-large red" href="https://gitter.im/Dogfalo/materialize" target="_blank"><i class="large material-icons">chat</i></a></div> -->
 
         <!-- Visual Breakpoint Helper for Materialize - http://materializecss.com/ -->
-        <div
-                style="position:fixed;bottom:0;left:0;background-color:rgba(0,0,0,0.5);padding:10px;color:#fff;z-index: 99999999;">
+        <div style="position:fixed;bottom:0;left:0;background-color:rgba(0,0,0,0.5);padding:10px;color:#fff;z-index: 99999999;">
                 <span class="hide-on-med-only hide-on-large-only">Small</span>
                 <span class="hide-on-small-only hide-on-large-only">Tablet</span>
                 <span class="hide-on-small-only hide-on-med-only">Desktop</span>
